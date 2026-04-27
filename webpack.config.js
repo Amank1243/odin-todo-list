@@ -36,9 +36,4 @@ export default {
       },
     ],
   },
-  "scripts": {
-    "dev": "webpack serve --mode development",
-    "build": "webpack --mode production",
-    "watch": "webpack --watch --mode development"
-  }
 };
