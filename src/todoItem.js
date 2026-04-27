@@ -6,7 +6,7 @@ function todoItem() {
     let date = new Date();
     let dateCreated = date.getMonth() + "/" + date.getDate() + '/' + date.getFullYear();
      
-    let dueDate = ' ';
+    let dueDate = new Date(year, month, day).toLocaleDateString();
     let priority = ' '; // Maybe make this into an enum?
     
 

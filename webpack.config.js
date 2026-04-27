@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default {
-  mode: "deployment",
+  mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
@@ -21,7 +21,7 @@ export default {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/template.html",
-      favicon: "./images/beach.png",
+      favicon: "",
     }),
   ],
   module: {
@@ -36,4 +36,9 @@ export default {
       },
     ],
   },
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  }
 };
