@@ -17,7 +17,7 @@ body {
 #side-bar {
     border: solid black 0.3em;
 
-    height: 100vh;
+    min-height: 95vh;
     width: 25vw;
 }
 
@@ -52,11 +52,11 @@ button#view-projects-button {
 /*           */
 /* MAIN-CONTENT */
 /*          */
-#side
 
-#main-content {
+div#main-content {
     border: solid black 0.3em;
 
-    height: 100vh;
+    min-height: 95vh;
     flex-grow: 1;
+
 }
