@@ -1,3 +1,14 @@
 body {
     display: flex;
+    flex-direction: column;
+}
+
+#side-bar{
+    border: solid black 0.6em;
+
+    size: 10em;
+}
+
+#main-content {
+    border: solid black 0.6em;
 }

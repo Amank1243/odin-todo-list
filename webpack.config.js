@@ -20,8 +20,7 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/template.html",
-      favicon: "",
+      template: "./src/template.html"
     }),
   ],
   module: {
